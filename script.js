@@ -50,3 +50,24 @@ function compareByPts(a, b) {
 //reverses the order of the players so they are sorted in descending order
   players.reverse();
 
+//adds img of pplayer w highest points to image-container
+let pts1 = players[0].pic
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts1);
+//adds class pts-1 to the image of player with highest points
+document.querySelector("img").classList.add("pts-1");
+
+let pts2 = players[1].pic
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts2);
+document.querySelectorAll("img")[1].classList.add("pts-2");
+
+let pts3 = players[2].pic
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts3);
+document.querySelectorAll("img")[2].classList.add("pts-3");
+
+let pts4 = players[3].pic
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts4);
+document.querySelectorAll("img")[3].classList.add("pts-4");
+
+let pts5 = players[4].pic
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts5);
+document.querySelectorAll("img")[4].classList.add("pts-5");
