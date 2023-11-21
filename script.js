@@ -5,7 +5,7 @@ let players = [
         "pts": 23.0,
         "reb": 9.3,
         "blk": 1.6,
-        "pic": "<img src=stewie.png>"
+        "pic": "<img src=./img/stewie.png>"
     },
 
     {
@@ -13,7 +13,7 @@ let players = [
         "pts": 21.2,
         "reb": 3.4,
         "blk": .1,
-        "pic": "<img src=arike.png>"
+        "pic": "<img src=./img/arike.png>"
     },
 
     {
@@ -21,7 +21,7 @@ let players = [
         "pts": 17.7,
         "reb": 6.3,
         "blk": 1.6,
-        "pic": "<img src=BG.png>"
+        "pic": "<img src=./img/BG.png>"
     },
 
     {
@@ -29,7 +29,7 @@ let players = [
         "pts": 15.3,
         "reb": 4.0,
         "blk": .6,
-        "pic": "<img src=chelseagrey.png>"
+        "pic": "<img src=./img/chelseagrey.png>"
     },
 
     {
@@ -37,6 +37,6 @@ let players = [
         "pts": 35.4,
         "reb": 4.7,
         "blk": .4,
-        "pic": "<img src=jewell.png>"
+        "pic": "<img src=./img/jewell.png>"
     }
 ]
