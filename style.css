@@ -1,3 +1,46 @@
-#image-container {
-    display: none;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  
+  #header-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+    justify-content: center;
+  }
+  
+  #selection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #image-container {
+    display: none;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    justify-content: center;
+  }
+  
+  #test-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: #fa4d00;
+  }
+  
+  img {
+    height: 173px;
+  }
+  
