@@ -40,3 +40,13 @@ let players = [
         "pic": "<img src=./img/jewell.png>"
     }
 ]
+
+//a compare function that compares the pts property of the objects in the players array
+function compareByPts(a, b) {
+    return a.pts - b.pts;
+  }
+//sorts the players by points in ascending order
+  players.sort(compareByPts);
+//reverses the order of the players so they are sorted in descending order
+  players.reverse();
+
