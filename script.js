@@ -71,3 +71,11 @@ document.querySelectorAll("img")[3].classList.add("pts-4");
 let pts5 = players[4].pic
 document.getElementById("image-container").insertAdjacentHTML("beforeend", pts5);
 document.querySelectorAll("img")[4].classList.add("pts-5");
+
+// shows image-container when pts is selected from menu
+function showPoints() {
+    document.getElementById("image-container").style.display = "flex";
+  }
+  document.getElementById("ptsBtn").addEventListener("click", showPoints);
+
+  
