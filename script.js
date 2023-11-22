@@ -141,3 +141,14 @@ if (mediaQuery.matches) {
     document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
     document.querySelectorAll("img")[9].classList.add("pts-10");
     }
+
+
+// if (screen is phone sized) {
+//     display 5 faces and assign class to them so they can be properly sized
+// } else if (screen is tablet sized) {
+//     display 10 faces and assign class to them
+// } else if (screen is laptop sized) {
+//     display x faces, assign class to them
+// } else {
+//     display x faces, assign class to them
+// }
