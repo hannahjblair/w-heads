@@ -92,19 +92,34 @@ h1 {
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .pts-1 {
-        height: 300px;
+        height: 600px;
     }
     .pts-2 {
-        height: 255px;   
+        height: 510px;   
     }
     .pts-3 {
-        height: 216.75px;
+        height: 433.5px;
     }
     .pts-4 {
-        height: 184.24px;
+        height: 368.488px;
     }
     .pts-5 {
-        height: 156.6px;
+        height: 313.2px;
+    }
+    .pts-6 {
+        height: 266.22px;
+    }
+    .pts-7 {
+        height: 226.29px;   
+    }
+    .pts-8 {
+        height: 192.34px;
+    }
+    .pts-9 {
+        height: 163.49px;
+    }
+    .pts-10 {
+        height: 138.97px;
     }
   } 
   
