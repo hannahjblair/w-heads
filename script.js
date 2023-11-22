@@ -38,6 +38,46 @@ let players = [
         "reb": 4.7,
         "blk": .4,
         "pic": "<img src=./img/jewell.png>"
+    },
+
+    {
+        "name": "Aliyah",
+        "pts": 14.5,
+        "reb": 8.4,
+        "blk": 1.3,
+        "pic": "<img src=./img/jewell.png>"
+    },
+
+    {
+        "name": "T-Cloud",
+        "pts": 12.7,
+        "reb": 3.7,
+        "blk": .3,
+        "pic": "<img src=./img/jewell.png>"
+    },
+
+    {
+        "name": "Jewell",
+        "pts": 35.4,
+        "reb": 4.7,
+        "blk": .4,
+        "pic": "<img src=./img/jewell.png>"
+    },
+
+    {
+        "name": "Kah",
+        "pts": 18.7,
+        "reb": 4.4,
+        "blk": .3,
+        "pic": "<img src=./img/jewell.png>"
+    },
+
+    {
+        "name": "Satou",
+        "pts": 18.6,
+        "reb": 8.1,
+        "blk": .4,
+        "pic": "<img src=./img/jewell.png>"
     }
 ]
 
@@ -78,4 +118,3 @@ function showPoints() {
   }
   document.getElementById("ptsBtn").addEventListener("click", showPoints);
 
-  
