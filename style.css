@@ -40,22 +40,80 @@ body {
     color: #fa4d00;
   }
   
-  img {
+  /* img {
     height: 173px;
   }
-  
+   */
+  /*
+  transform does get the images to the right size but still takes up the same ammount of space as the original image making it appear to have extra padding when it has 0 padding
   .pts-2 {
     transform: scale(.8);
   }
-  
-  .pts-3 {
-    transform: scale(.7);
+  */
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .pts-1 {
+        height: 300px;
+    }
+    .pts-2 {
+        height: 255px;   
+    }
+    .pts-3 {
+        height: 216.75px;
+    }
+    .pts-4 {
+        height: 184.24px;
+    }
+    .pts-5 {
+        height: 156.6px;
+    }
   }
   
-  .pts-4 {
-    transform: scale(.6);
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .pts-1 {
+        height: 300px;
+    }
+    .pts-2 {
+        height: 255px;   
+    }
+    .pts-3 {
+        height: 216.75px;
+    }
+    .pts-4 {
+        height: 184.24px;
+    }
+    .pts-5 {
+        height: 156.6px;
+    }
   }
   
-  .pts-5 {
-    transform: scale(.5);
-  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .pts-1 {
+        height: 300px;
+    }
+    .pts-2 {
+        height: 255px;   
+    }
+    .pts-3 {
+        height: 216.75px;
+    }
+    .pts-4 {
+        height: 184.24px;
+    }
+    .pts-5 {
+        height: 156.6px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up)
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  Extra large devices (large laptops and desktops, 1200px and up)
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  } */
