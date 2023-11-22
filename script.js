@@ -119,7 +119,7 @@ function showPoints() {
   document.getElementById("ptsBtn").addEventListener("click", showPoints);
 
 //need to add more faces to image-container when screen size is bigger that mobile
-var mediaQuery = window.matchMedia("(min-width: 700px)");
+var mediaQuery = window.matchMedia("(min-width: 768px)");
 if (mediaQuery.matches) {
     let pts6 = players[5].pic
     document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
