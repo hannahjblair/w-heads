@@ -131,7 +131,7 @@ if (mediaQuery.matches) {
 
     let pts8 = players[7].pic
     document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
-    document.querySelectorAll("img")[7].classList.add("pts-7");
+    document.querySelectorAll("img")[7].classList.add("pts-8");
 
     let pts9 = players[8].pic
     document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
@@ -139,5 +139,5 @@ if (mediaQuery.matches) {
 
     let pts10 = players[9].pic
     document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
-    document.querySelectorAll("img")[9].classList.add("pts-6");
+    document.querySelectorAll("img")[9].classList.add("pts-10");
     }
