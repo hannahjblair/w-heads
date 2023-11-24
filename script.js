@@ -148,6 +148,17 @@ function showFansChoice() {
   }
   document.getElementById("fanBtn").addEventListener("click", showFansChoice);
 
+// keeps the divs from other topics from showing while  fan's choice is selected
+function noShow() {
+        document.getElementById("image-container").style.display = "none";
+}
+document.getElementById("fanBtn").addEventListener("click", noShow);
+
+// keeps the divs from other topics from showing while pts is selected
+function noShowPts() {
+    document.getElementById("fan-choice").style.display = "none";
+}
+document.getElementById("ptsBtn").addEventListener("click", noShowPts);
 
 // if (screen is phone sized) {
 //     display 5 faces and assign class to them so they can be properly sized
