@@ -27,6 +27,10 @@ body {
     justify-content: center;
     }
   
+#fan-choice {
+    display:none;
+}
+
 h1 {
     font-weight: bold;
     color: #fa4d00;
