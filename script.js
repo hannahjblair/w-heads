@@ -142,6 +142,12 @@ if (mediaQuery.matches) {
     document.querySelectorAll("img")[9].classList.add("pts-10");
     }
 
+// shows fan-choice when pts is selected from menu
+function showFansChoice() {
+    document.getElementById("fan-choice").style.display = "flex";
+  }
+  document.getElementById("fanBtn").addEventListener("click", showFansChoice);
+
 
 // if (screen is phone sized) {
 //     display 5 faces and assign class to them so they can be properly sized
