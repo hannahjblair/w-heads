@@ -12,11 +12,19 @@
         <h1>HEADS OF THE W</h1>
     </div>
     <p>Who is your favorite WNBA player?</p>
-    <form id="Form">
-        <input type="text" placeholder="type player's name here">
-        
-        <input type="button" value="vote">
+    <form>
+        <input list="player-names" name="favorite-player">
+        <datalist id="player-names">
+          <option value="Breanna Stewart">
+          <option value="A'ja Wilson">
+          <option value="Marine Johannes">
+          <option value="Jewell Loyd">
+          <option value="Nneka Ogwumike">
+        </datalist>
+        <input type="submit">
     </form>
+
+
     <script src="script.js"></script> 
 </body>
 </html>
