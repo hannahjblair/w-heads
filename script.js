@@ -1,7 +1,7 @@
 
 let players = [
     {
-        "name": "Stewie",
+        "name": "Breanna Stewart",
         "pts": 23.0,
         "reb": 9.3,
         "blk": 1.6,
@@ -17,7 +17,7 @@ let players = [
     },
 
     {
-        "name": "BG",
+        "name": "Brittney Griner",
         "pts": 17.7,
         "reb": 6.3,
         "blk": 1.6,
@@ -49,7 +49,7 @@ let players = [
     },
 
     {
-        "name": "T-Cloud",
+        "name": "T Cloud",
         "pts": 12.7,
         "reb": 3.7,
         "blk": .3,
