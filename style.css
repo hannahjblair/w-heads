@@ -31,9 +31,10 @@ body {
     display:none;
 }
 
-h1 {
+h1 a {
     font-weight: bold;
     color: #fa4d00;
+    text-decoration: none;
     }
 
   @media only screen and (max-width: 767px){

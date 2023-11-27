@@ -168,9 +168,3 @@ function noShowPts() {
 }
 document.getElementById("ptsBtn").addEventListener("click", noShowPts);
 
-//use for each loop to diplay each item in playerPic array and add a class to be able to adjust size w css
-
-// let playerPic = [players[0].pic, players[1].pic, players[2].pic,
-//  players[3].pic, players[4].pic, players[5].pic, players[6].pic,
-//  players[7].pic, players[8].pic, players[9].pic]
-
