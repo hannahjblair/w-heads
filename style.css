@@ -22,7 +22,7 @@ body {
 #image-container {
     display: none;
     flex-wrap: wrap;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 2%;
     justify-content: center;
     }
@@ -36,135 +36,72 @@ h1 {
     color: #fa4d00;
     }
 
-  /* img {
-    height: 173px;
+  @media only screen and (max-width: 767px){
+    .pts-1 {
+        height: 35vh;
+      }
+    
+    .pts-2 {
+        height: 30vh;
+    }
+    
+    .pts-3 {
+        height: 25vh;
+    }
+    
+    .pts-4 {
+        height: 20vh;
+    }
+    
+    .pts-5 {
+        height: 15vh;
+    }
+    .pts-6 {
+        display: none;
+    }
+    .pts-7 {
+        display: none;
+    }
+    .pts-8 {
+        display: none;
+    }
+    .pts-9 {
+        display: none;
+    }
+    .pts-10 {
+        display: none;
+    }
   }
-   */
-  /*
-  transform does get the images to the right size but still takes up the same ammount of space as the original image making it appear to have extra padding when it has 0 padding
-  .pts-2 {
-    transform: scale(.8);
-  }
-  */
 
-  /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 768px){
     .pts-1 {
         height: 50vh;
     }
     .pts-2 {
-        height: 10vh;   
+        height: 45vh;   
     }
     .pts-3 {
-        height: 5vh;
+        height: 40vh;
     }
     .pts-4 {
-        height: 2vh;
+        height: 35vh;
     }
     .pts-5 {
-        height: 1vh;
-    }
-  }
-   */
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  /* @media only screen and (min-width: 600px) {
-    .pts-1 {
-        height: 300px;
-    }
-    .pts-2 {
-        height: 255px;   
-    }
-    .pts-3 {
-        height: 216.75px;
-    }
-    .pts-4 {
-        height: 184.24px;
-    }
-    .pts-5 {
-        height: 156.6px;
-    }
-  } */
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  /* @media only screen and (min-width: 768px) {
-    .pts-1 {
-        height: 600px;
-    }
-    .pts-2 {
-        height: 510px;   
-    }
-    .pts-3 {
-        height: 433.5px;
-    }
-    .pts-4 {
-        height: 368.488px;
-    }
-    .pts-5 {
-        height: 313.2px;
+        height: 30vh;
     }
     .pts-6 {
-        height: 266.22px;
+        height: 25vh;
     }
     .pts-7 {
-        height: 226.29px;   
+        height: 20vh;   
     }
     .pts-8 {
-        height: 192.34px;
+        height: 15vh;
     }
     .pts-9 {
-        height: 163.49px;
+        height: 10vh;
     }
     .pts-10 {
-        height: 138.97px;
+        height: 5vh;
     }
-  }  */
-  
-  /* Large devices (laptops/desktops, 992px and up)
-  @media only screen and (min-width: 992px) {
-    .example {background: orange;}
-  } 
-  
-  Extra large devices (large laptops and desktops, 1200px and up)
-  @media only screen and (min-width: 1200px) {
-    .example {background: pink;}
-  } */
-
-.pts-1 {
-    height: 30vh;
   }
-
-.pts-2 {
-    height: 25vh;
-}
-
-.pts-3 {
-    height: 20vh;
-}
-
-.pts-4 {
-    height: 15vh;
-}
-
-.pts-5 {
-    height: 10vh;
-}
-
-.pts-6 {
-    height: 9vh;
-}
-
-.pts-7 {
-    height: 8vh;
-}
-
-.pts-8 {
-    height: 7vh;
-}
-
-.pts-9 {
-    height: 6vh;
-}
-
-.pts-10 {
-    height: 5vh;
-}
