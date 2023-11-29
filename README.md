@@ -2,8 +2,11 @@
 A site that visually displays stats from the 2023 regular season WNBA games.
 
 **To Run Locally:**
+
 Clone this repository
+
 `https://github.com/hannahjblair/w-heads.git`
+
 Use the Live Server extension in Visual Studio Code to open in browser
 
 **Features List:**
