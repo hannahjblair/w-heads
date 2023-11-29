@@ -26,6 +26,12 @@ body {
     padding-bottom: 2%;
     justify-content: center;
     }
+
+#api-container {
+    display: none;
+    margin-top: 2%;
+    max-width: 80%;
+}
   
 #fan-choice {
     display:none;

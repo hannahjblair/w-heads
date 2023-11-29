@@ -143,12 +143,24 @@ document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6)
 document.querySelectorAll("img")[9].classList.add("pts-10");
 
 
+//puts random dog image from API in api-container
+async function fetchParagraph() {
+    const result = await fetch("https://dog.ceo/api/breeds/image/random");
+    const resultJson = await result.json();
+    // console.log(resultJson.message);
+    const dogContainer = document.getElementById("api-container");
+    let html = `<img src='${resultJson.message}' alt='random dog'>`
+    dogContainer.insertAdjacentHTML("afterbegin", html);
+}
+
+fetchParagraph();
+
+
 // shows image-container when pts is selected from menu
 function showPoints() {
     document.getElementById("image-container").style.display = "flex";
   }
   document.getElementById("ptsBtn").addEventListener("click", showPoints);
-
 
 // shows fan-choice when pts is selected from menu
 function showFansChoice() {
@@ -156,15 +168,31 @@ function showFansChoice() {
   }
   document.getElementById("fanBtn").addEventListener("click", showFansChoice);
 
+//shows api-container when Backup API is chosen from menu
+function showAPI() {
+    document.getElementById("api-container").style.display = "flex";
+  }
+  document.getElementById("apiBtn").addEventListener("click", showAPI);
+
+
+
 // keeps the divs from other topics from showing while  fan's choice is selected
 function noShow() {
         document.getElementById("image-container").style.display = "none";
+        document.getElementById("api-container").style.display = "none";
 }
 document.getElementById("fanBtn").addEventListener("click", noShow);
 
 // keeps the divs from other topics from showing while pts is selected
 function noShowPts() {
     document.getElementById("fan-choice").style.display = "none";
+    document.getElementById("api-container").style.display = "none";
 }
 document.getElementById("ptsBtn").addEventListener("click", noShowPts);
 
+// keeps the divs from other topics from showing while Backup API is selected
+function noShowAPI() {
+    document.getElementById("fan-choice").style.display = "none";
+    document.getElementById("image-container").style.display = "none";
+}
+document.getElementById("apiBtn").addEventListener("click", noShowAPI);
