@@ -10,7 +10,7 @@ let players = [
     },
 
     {
-        "name": "Arike",
+        "name": "Arike Ogunbowale",
         "pts": 21.2,
         "reb": 3.4,
         "blk": .1,
@@ -37,7 +37,7 @@ let players = [
     },
 
     {
-        "name": "Jewell",
+        "name": "Jewell Loyd",
         "pts": 35.4,
         "reb": 4.7,
         "blk": .4,
@@ -46,47 +46,47 @@ let players = [
     },
 
     {
-        "name": "Aliyah",
+        "name": "A'ja Wilson",
         "pts": 14.5,
         "reb": 8.4,
         "blk": 1.3,
-        "pic": "<img src=./img/jewell.png>",
+        "pic": "<img src=./img/aja.png>",
         "votes": 0
     },
 
     {
-        "name": "T Cloud",
+        "name": "Napheesa Collier",
         "pts": 12.7,
         "reb": 3.7,
         "blk": .3,
-        "pic": "<img src=./img/jewell.png>",
+        "pic": "<img src=./img/napheesa.png>",
         "votes": 0
     },
 
     {
-        "name": "Jewell",
+        "name": "Kelsey Plum",
         "pts": 35.4,
         "reb": 4.7,
         "blk": .4,
-        "pic": "<img src=./img/jewell.png>",
+        "pic": "<img src=./img/kelseyp.png>",
         "votes": 0
     },
 
     {
-        "name": "Kah",
+        "name": "Kahleah Copper",
         "pts": 18.7,
         "reb": 4.4,
         "blk": .3,
-        "pic": "<img src=./img/jewell.png>",
+        "pic": "<img src=./img/kahleah.png>",
         "votes": 0
     },
 
     {
-        "name": "Satou",
+        "name": "Satou Sabally",
         "pts": 18.6,
         "reb": 8.1,
         "blk": .4,
-        "pic": "<img src=./img/jewell.png>",
+        "pic": "<img src=./img/satou.png>",
         "votes": 0
     }
 ]
@@ -127,19 +127,19 @@ document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6)
 document.querySelectorAll("img")[5].classList.add("pts-6");
 
 let pts7 = players[6].pic
-document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts7);
 document.querySelectorAll("img")[6].classList.add("pts-7");
 
 let pts8 = players[7].pic
-document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts8);
 document.querySelectorAll("img")[7].classList.add("pts-8");
 
 let pts9 = players[8].pic
-document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts9);
 document.querySelectorAll("img")[8].classList.add("pts-9");
 
 let pts10 = players[9].pic
-document.getElementById("image-container").insertAdjacentHTML("beforeend", pts6);
+document.getElementById("image-container").insertAdjacentHTML("beforeend", pts10);
 document.querySelectorAll("img")[9].classList.add("pts-10");
 
 
