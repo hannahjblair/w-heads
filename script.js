@@ -158,7 +158,7 @@ fetchParagraph();
 
 // shows image-container when pts is selected from menu
 function showPoints() {
-    document.getElementById("image-container").style.display = "flex";
+    document.getElementById("image-container").style.display = "grid";
   }
   document.getElementById("ptsBtn").addEventListener("click", showPoints);
 
