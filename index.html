@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Heads of the W</title>
     <link rel="icon" type="image/png" href="./img/BG.png"/>
 </head>
@@ -12,24 +12,16 @@
         <h1><a href="index.html">HEADS OF THE W</a></h1>
     </div>
     <div id="selection-container">
-        <select>
-            <option>Select Stat</option>
-            <option id="ptsBtn">Pts</option>
-            <option>Reb</option>
-            <option>Blk</option>
-            <option id="apiBtn">Backup API</option>
-            <option id="fanBtn">Fan's Choice</option>
-        </select>
-    </div>
-    <div Id="image-container">
-        <!-- images of players go here --> 
-    </div>
-    <div Id="fan-choice">
-        <a href="./fanchoice.html">vote for your favorite player here</a>
-    </div>
-    <div Id="api-container">
-
-    </div>
-    <script src="script.js"></script>
+        <ul class="nav-menu">	
+            <li>
+                <a href="#">Select Stat</a>
+                <ul class="menu">
+                    <li><a href="ppg.html">Points Per Game</a></li>
+                    <li><a href="apipage.html">Placeholder API</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> 
+    <script src="./js/menu.js"></script>
 </body>
 </html>
