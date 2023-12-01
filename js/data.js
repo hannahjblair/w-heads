@@ -4,7 +4,7 @@ let players = [
         "pts": 23.0,
         "reb": 9.3,
         "blk": 1.6,
-        "pic": "<img src=./img/stewie.png>",
+        "pic": "<img alt='Breanna Stewart' title='Breanna Stewart' src=./img/stewie.png>",
         "votes": 0
     },
 

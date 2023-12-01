@@ -1,4 +1,4 @@
-//the select stat menu
+//the select stat nav
 var navLinks = document.querySelectorAll('.nav-menu li > a');
 
 [].slice.call(navLinks).forEach(function(link) {
@@ -10,3 +10,4 @@ var navLinks = document.querySelectorAll('.nav-menu li > a');
         }
     }, false);
 });
+
