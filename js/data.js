@@ -19,7 +19,7 @@ let players = [
 
     {
         "name": "Brittney Griner",
-        "pts": 17.7,
+        "pts": 17.5,
         "reb": 6.3,
         "blk": 1.6,
         "pic": "<img alt='Brittney Griner' title='Brittney Griner' src=./img/BG.png>",
@@ -37,7 +37,7 @@ let players = [
 
     {
         "name": "Jewell Loyd",
-        "pts": 35.4,
+        "pts": 24.7,
         "reb": 4.7,
         "blk": .4,
         "pic": "<img alt='Jewell Loyd' title='Jewell Loyd' src=./img/jewell.png>",
@@ -49,7 +49,7 @@ let players = [
         "pts": 14.5,
         "reb": 8.4,
         "blk": 1.3,
-        "pic": "<img alt='A'ja Wilson' title='A'ja Wilson' src=./img/aja.png>",
+        "pic": "<img alt='A'ja Wilson' title='Aja Wilson' src=./img/aja.png>",
         "votes": 0
     },
 
@@ -64,9 +64,9 @@ let players = [
 
     {
         "name": "Kelsey Plum",
-        "pts": 35.4,
-        "reb": 4.7,
-        "blk": .4,
+        "pts": 18.7,
+        "reb": 2.4,
+        "blk": 0,
         "pic": "<img alt='Kelsey Plum' title='Kelsey Plum' src=./img/kelseyp.png>",
         "votes": 0
     },
