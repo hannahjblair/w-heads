@@ -42,6 +42,10 @@ body {
     margin-right: 2vh;
 }
 
+#current {
+    color: white;
+}
+
 .nav-menu a {
     color: white;
     background-color: #fa4d00;
@@ -71,6 +75,10 @@ li {
 li a {
     padding: 2%;
     margin-top: 1%;    
+}
+
+#stat {
+    font-size: 1.5em;
 }
 
 #options-container ul{
@@ -112,7 +120,11 @@ h1 a {
     color: #fa4d00;
     text-shadow: 2px 2px 4px #000000;
     text-decoration: none;
-    }
+}
+
+#heads {
+    font-size: 2em;
+}
 
 @media only screen and (max-width: 767px){
     .pts-1 {
